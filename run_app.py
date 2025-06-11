@@ -4,7 +4,7 @@ from pyngrok import ngrok
 import subprocess
 
 # Set up ngrok authentication
-ngrok_auth_token = " "
+ngrok_auth_token = "cr_2yNPfSzYXH2wtTnhZiKaJqsRm9D"
 ngrok.set_auth_token(ngrok_auth_token)
 
 # Start the Streamlit app and create a tunnel
